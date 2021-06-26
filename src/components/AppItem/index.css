@@ -1,0 +1,40 @@
+.app-container {
+  background-color: #ffffff;
+  border-radius: 18px;
+  margin: 6px;
+  height: 215px;
+  max-height: 280px;
+  width: 205px;
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.app-image-div {
+  margin: 6px;
+}
+
+.app-image {
+  height: 85px;
+}
+
+.app-name {
+  font-size: 26px;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 15px 5px 0px 5px;
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    margin: 10px;
+    height: 215px;
+    width: 220px;
+  }
+}

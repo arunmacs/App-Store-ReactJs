@@ -1,0 +1,37 @@
+.tab-item {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #7b8794;
+  padding: 10px 22px 10px 22px;
+  border-bottom: 3px solid #dfe2e5;
+  cursor: pointer;
+}
+
+.tab-item-active {
+  padding: 10px 22px 15px 22px;
+  border-bottom: 3px solid #2563eb;
+  cursor: pointer;
+  color: #2563eb;
+}
+
+button {
+  border-width: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .tab-item {
+    font-size: 24px;
+  }
+
+  .tab-item-active {
+    padding: 10px 22px 17px 22px;
+    border-bottom: 4px solid #2563eb;
+  }
+}
