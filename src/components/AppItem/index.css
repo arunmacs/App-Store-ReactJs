@@ -2,10 +2,10 @@
   background-color: #ffffff;
   border-radius: 18px;
   margin: 6px;
-  height: 220px;
+  height: 210px;
   max-height: 300px;
-  width: 200px;
-  max-width: 270px;
+  width: 185px;
+  max-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
