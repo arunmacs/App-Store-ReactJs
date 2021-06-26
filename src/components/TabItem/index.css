@@ -1,7 +1,7 @@
 .tab-item {
   font-family: 'Roboto';
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
   color: #7b8794;
   padding: 10px 22px 10px 22px;
   border-bottom: 3px solid #dfe2e5;
@@ -9,8 +9,13 @@
 }
 
 .tab-item-active {
-  padding: 10px 22px 15px 22px;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 10px 22px 20px 22px;
   border-bottom: 3px solid #2563eb;
+  border-top: 1px solid #00ad9f;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   cursor: pointer;
   color: #2563eb;
 }
@@ -33,5 +38,17 @@ li {
   .tab-item-active {
     padding: 10px 22px 17px 22px;
     border-bottom: 4px solid #2563eb;
+  }
+
+  .tab-item-active {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px 22px 20px 22px;
+    border-bottom: 3px solid #2563eb;
+    border-top: 2px solid #00ad9f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    color: #2563eb;
   }
 }

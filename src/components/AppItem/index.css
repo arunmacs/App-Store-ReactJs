@@ -2,9 +2,9 @@
   background-color: #ffffff;
   border-radius: 18px;
   margin: 6px;
-  height: 215px;
-  max-height: 280px;
-  width: 205px;
+  height: 220px;
+  max-height: 300px;
+  width: 200px;
   max-width: 270px;
   display: flex;
   flex-direction: column;
@@ -18,13 +18,26 @@ li {
 
 .app-image {
   height: 85px;
+  margin: 17px 5px 5px 5px;
 }
 
 .app-name {
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 400;
   color: #1e293b;
-  margin: 15px 5px 0px 5px;
+  margin: 17px 5px 5px 5px;
+}
+
+.install-btn {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #1e293b;
+  margin: 15px;
+  padding: 6px 17px 6px 17px;
+  border-radius: 4px;
 }
 
 @media (min-width: 768px) {
